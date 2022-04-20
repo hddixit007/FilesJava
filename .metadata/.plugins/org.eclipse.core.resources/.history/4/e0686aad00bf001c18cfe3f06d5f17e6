@@ -1,0 +1,32 @@
+package one;
+
+import java.util.*;
+import java.io.*;
+public class one1 {
+	public static void main(String args[])
+	{
+		m1();
+	}
+	public static void m1()
+	{
+		m2();
+	}
+
+	public static void m2()
+	{
+		try
+		{
+			File f = new File("abc.txt");
+			FileReader fr = new FileReader(f);
+		}
+
+
+		catch(FileNotFoundException fnf)
+		{
+			System.out.println("file not found");
+		}
+
+}
+
+
+//

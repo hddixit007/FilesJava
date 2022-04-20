@@ -1,0 +1,18 @@
+package day1assessment;
+import java.util.*;
+public class day1assessment {
+
+	public static void main(String args[])
+	{
+		static
+		{
+			System.out.println("Coming");
+		}
+		//char[] arr = {'a','b','c','d','e'};
+		//char [] ch = "Harshit";      // This is not possible
+		
+		
+		
+		
+	}
+}

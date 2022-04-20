@@ -1,0 +1,45 @@
+package april_14;
+
+class A
+{
+	void calc(int ... n)  // it consider it as sequence of values
+	{
+		for(int item: n)
+		{
+			System.out.println(item);
+		}
+	}
+}
+
+
+public class april_14 {
+	public static void main(String args[])
+	{
+		/*int []arr = {1,2,3,4,5};
+		int [][]a = {
+				{10,20,30,40},
+				{1,2,3,4},
+				{3,6,80,21}};
+		System.out.println("done");
+		
+		/*for(int item: arr)
+		{
+			System.out.println(item);
+		}
+		
+		for(int ele[]: a)
+		{
+			for(int k: ele)
+			{
+				System.out.print(k+" ");
+			}
+			System.out.println();
+		}*/
+		
+		// Variable length arguments
+		A a = new A();
+		a.calc(10,20,30,40);
+		
+	}
+
+}

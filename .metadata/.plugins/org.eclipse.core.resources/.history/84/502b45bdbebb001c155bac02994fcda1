@@ -1,0 +1,8 @@
+module Myproje {
+}
+
+//for each loop for 2d array
+class 
+int[] a;
+a = new int[];
+System.out.println("done");

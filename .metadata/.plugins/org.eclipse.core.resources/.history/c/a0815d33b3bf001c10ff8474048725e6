@@ -1,0 +1,11 @@
+package MapDemo;
+
+public class MapDemo {
+
+	//Map m = new Map();
+	
+	HashMap m1 = new HashMap();
+	LinkedHashMap lm = new LinkedHashMap();
+	TreeMap tm = new TreMap();
+	
+}

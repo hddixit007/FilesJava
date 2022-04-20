@@ -1,0 +1,67 @@
+package april19;
+import java.lang.*;
+import java.util.*;
+class A extends Thread
+{
+	public void run()
+	{
+		for (int i=0; i<=10; i++)
+		{
+			try
+			{
+				System.out.println("I: "+i);
+				Thread.sleep;
+			}
+			catch(Exception e)
+			{
+			}
+			
+		}
+	}
+}
+
+class B extends Thread
+{
+	public void run()
+	{
+		for (int j=0; j<=10; j++)
+		{
+			try
+			{
+				System.out.println("              J: "+j);
+				Thread.sleep;
+			}
+			catch(Exception e)
+			{
+			}
+			
+		}
+	}
+}
+public class april19 {
+
+	public static void main(String args[] )
+	{
+		A a = new A();
+		B b = new B();
+		a.start();
+		b.start();
+		//Thread t1 = new Thread();
+	}
+}
+
+
+// All the methods like start and run come from thread class from lang package.
+// 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+package april18new;
+import april18.*;
+
+ class AZ extends april18 {
+	AZ()
+	{
+		System.out.println("Hi");
+		System.out.println(x);
+		
+	}
+	public static void main(String args[])
+	{
+		AZ obj  = new AZ();
+		
+		
+	}
+}
+

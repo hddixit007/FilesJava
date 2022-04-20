@@ -1,0 +1,11 @@
+package april_14;
+
+public class april_14 {
+	public static void main(String args[])
+	{
+		int [][]a;
+		a = new int[5][5];
+		System.out.println("done");
+	}
+
+}

@@ -1,0 +1,7 @@
+package april18new;
+
+public class april18new extends A {
+	System.out.prntln(a); 
+	
+
+}

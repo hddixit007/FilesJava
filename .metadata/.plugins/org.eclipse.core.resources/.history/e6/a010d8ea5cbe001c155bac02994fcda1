@@ -1,0 +1,36 @@
+package day1assessment;
+
+//import java.util.*;
+
+class A 
+{
+	int i=8;
+	/*void show()
+	{
+		System.out.println("show of A");
+	}*/
+}
+class B extends A
+{
+	int i=5;
+	void show()
+	{
+		//super.show();
+		System.out.println("show of B");
+	}
+}
+public class day1assessment {
+
+	public static void main(String args[])
+	{
+		A a = new A();
+		//a.show();
+		B b = new B();
+		b.show();
+		A ao = new B();
+		System.out.println(ao.i);
+		//B bo = new A();   // This is wrong 
+		
+		
+	}
+}

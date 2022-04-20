@@ -1,0 +1,22 @@
+package april19;
+
+class A extends Thread
+{
+	public void run()
+	{
+		
+	}
+}
+
+class B extends Thread
+{
+	
+}
+public class april19 {
+
+	public static void main(String args[] )
+	{
+		A a = new A();
+		a.start();
+	}
+}

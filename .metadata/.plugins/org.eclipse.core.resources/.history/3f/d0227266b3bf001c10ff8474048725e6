@@ -1,0 +1,8 @@
+package MapDemo;
+
+public class april19practice {
+
+	HashMap m1 = new HashMap();
+	LinkedHashMap lm = new LinkedHashMap();
+	TreeMap tm = new TreMap();
+}

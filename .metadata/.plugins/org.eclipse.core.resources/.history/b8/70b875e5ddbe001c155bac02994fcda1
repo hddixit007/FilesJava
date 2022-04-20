@@ -1,0 +1,18 @@
+package april18new;
+import april18.*;
+
+public class april18new extends april18 {
+	april18new()
+	{
+		System.out.println(x);
+	}
+}
+
+class Main
+{
+	public static void main(String args[])
+	{
+		april18new obj  = new april18new();
+		
+	}
+}

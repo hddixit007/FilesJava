@@ -1,0 +1,30 @@
+package day1assessment;
+import java.util.*;
+public class day1assessment {
+
+	public static void main(String args[])
+	{
+		
+		//char[] arr = {'a','b','c','d','e'};
+		//char [] ch = "Harshit";      // This is not possible
+		
+		HashSet<Character> s = new HashSet<Character>();
+		String s1 = "gama";
+		String s2 = "slai";
+		int len = s1.length();
+		for(int i=0; i<len; i++)
+		{
+			s.add(s1.charAt(i));
+		}
+		for(int i=0; i<s2.length(); i++)
+		{
+			System.out.print(	s.contains(s2.charAt(i))  );	
+
+			if(s.contains(s2.charAt(i)));
+			{
+				System.out.print(s2.charAt(i)+" ");			
+			}
+		
+		}
+}
+}

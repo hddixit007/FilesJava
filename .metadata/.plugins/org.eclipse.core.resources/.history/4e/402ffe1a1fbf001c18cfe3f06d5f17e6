@@ -1,0 +1,33 @@
+package practiceinterface;
+
+
+abstract class A
+{
+	abstract void abc(); 
+}
+
+class B
+{
+	void abc()
+	{
+		System.out.println("hi i am b");
+	}
+}
+
+class C
+{
+	void abc()
+	{
+		System.out.println("hi i am c");
+	}
+}
+public class practiceI {
+
+	public static void main(String args[])
+	{
+		A b = new B();
+		A c = new C();
+		b.abc();
+		c.abc();
+	}
+}
